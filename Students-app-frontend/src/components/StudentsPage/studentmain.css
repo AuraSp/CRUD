@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loader {
+    font-size: 3em;
+    text-align: center;
+}
+
+.counter {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0 0 0 1em;
+}
+
+.search {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1.4em;
+    color: #fff;
+    transform: translateX(20vw);
+}
+
+.search label svg{
+    position: relative;
+    bottom: 0.1em;
+
+}
+
+.search input {
+    border: 1px solid transparent;
+    background-color: #8f6c6c;
+    padding: 0.5em;
+    font-size: 0.6em;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+}
+.search input:focus {
+    outline: none;
+    border: 3px solid #993f3f;
+}
+
+thead{
+    font-family: 'Patrick Hand';
+}
